@@ -2190,10 +2190,10 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="Lightbar" type="BitsIO">
+  <Bean name="LIGHT_BAR" type="BitsIO">
     <Enabled v="Y" />
     <Properties>
-      <Component_name v="Lightbar" />
+      <Component_name v="LIGHT_BAR" />
       <Port v="GPIOA" />
       <inhrbean type="BitsIO_LDD">
         <Enabled v="Y" />

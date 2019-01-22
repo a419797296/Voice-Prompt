@@ -1074,10 +1074,10 @@
       </group>
       <group name="Timing">
         <CAN_timing_calculator v="click to run -&amp;gt;" />
-        <Time_segment_1 v="4" />
+        <Time_segment_1 v="5" />
         <Time_segment_2 v="2" />
         <Resync_jump_width v="1" />
-        <Time_quanta_per_bit v="7" />
+        <Time_quanta_per_bit v="8" />
         <Samples_per_bit v="One sample" />
         <Bit_rate v="500 kbit/s" />
       </group>

@@ -7,7 +7,7 @@
 **     Version     : Component 01.112, Driver 01.00, CPU db: 3.00.000
 **     Repository  : Kinetis
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2018-11-19, 16:28, # CodeGen: 82
+**     Date/Time   : 2018-12-27, 12:31, # CodeGen: 96
 **     Abstract    :
 **         This component "CAN_LDD" implements a CAN serial channel.
 **     Settings    :
@@ -62,10 +62,10 @@
 **            Wake up                                      : Disabled
 **          Timing                                         : 
 **            CAN timing calculator                        : click to run ->
-**            Time segment 1                               : 4
+**            Time segment 1                               : 5
 **            Time segment 2                               : 2
 **            Resync jump width                            : 1
-**            Time quanta per bit                          : 7
+**            Time quanta per bit                          : 8
 **            Samples per bit                              : One sample
 **            Bit rate                                     : 500 kbit/s
 **          Initialization                                 : 
@@ -268,10 +268,10 @@ LDD_TDeviceData* CAN_Init(LDD_TUserData *UserDataPtr)
   MSCAN_CANIDAR6 = MSCAN_CANIDAR_BANK_2_AC(0xFF); /* Set the acceptance code - register MSCAN_CANIDAR6 */
   /* MSCAN_CANIDAR7: AC=0xFF */
   MSCAN_CANIDAR7 = MSCAN_CANIDAR_BANK_2_AC(0xFF); /* Set the acceptance code - register MSCAN_CANIDAR7 */
-  /* MSCAN_CANBTR0: SJW=0,BRP=6 */
-  MSCAN_CANBTR0 = (MSCAN_CANBTR0_SJW(0x00) | MSCAN_CANBTR0_BRP(0x06)); /* Set the timing register 0 */
-  /* MSCAN_CANBTR1: SAMP=0,TSEG2=1,TSEG1=3 */
-  MSCAN_CANBTR1 = (MSCAN_CANBTR1_TSEG2(0x01) | MSCAN_CANBTR1_TSEG1(0x03)); /* Set the timing register 1 */
+  /* MSCAN_CANBTR0: SJW=0,BRP=5 */
+  MSCAN_CANBTR0 = (MSCAN_CANBTR0_SJW(0x00) | MSCAN_CANBTR0_BRP(0x05)); /* Set the timing register 0 */
+  /* MSCAN_CANBTR1: SAMP=0,TSEG2=1,TSEG1=4 */
+  MSCAN_CANBTR1 = (MSCAN_CANBTR1_TSEG2(0x01) | MSCAN_CANBTR1_TSEG1(0x04)); /* Set the timing register 1 */
   DeviceDataPrv->TxBuffersPendingMask = 0x00U; /* Clear Tx request pending message buffer mask */
   MSCAN_PDD_EnableInitializationMode(MSCAN_BASE_PTR, PDD_DISABLE); /* Exit from initialization mode */
   while(MSCAN_PDD_GetInitializationModeAcknowledgeFlag(MSCAN_BASE_PTR) != 0U) {} /* Wait for enable */

@@ -3,7 +3,7 @@
   <Header>
     <Name>Voice Prompt</Name>
     <SavedBy>Administrator</SavedBy>
-    <ModificationStamp>39</ModificationStamp>
+    <ModificationStamp>41</ModificationStamp>
     <Date>2018-04-27</Date>
     <IDE>Eclipse IDE</IDE>
     <PEversion>1.12.2.RT7_b1550-0615</PEversion>
@@ -17241,8 +17241,8 @@
         <ReadOnly>false</ReadOnly>
         <UserReadOnly>false</UserReadOnly>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Index>3</Index>
-        <EnumSymbVal>4</EnumSymbVal>
+        <Index>4</Index>
+        <EnumSymbVal>5</EnumSymbVal>
       </ItemState>
       <ItemState>
         <ItemSymbol>TimeSegment2</ItemSymbol>
@@ -17313,7 +17313,7 @@
       <ItemState>
         <ItemSymbol>NumTimeQuanta</ItemSymbol>
         <PropertyModelIsAutomatic>false</PropertyModelIsAutomatic>
-        <Value>7</Value>
+        <Value>8</Value>
         <Base>DEC</Base>
       </ItemState>
       <ItemState>

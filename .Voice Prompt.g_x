@@ -110,7 +110,7 @@
       <File Name="Generated_Code/BitIoLdd20.c" FileDate="2018-08-18, 18:04:49" FileAge="1534586689971" FileType="45637" CompNumb="119" />
       <File Name="Static_Code/PDD/RTC0_PDD.h" FileDate="2018-04-27, 16:42:09" FileAge="1524818529689" FileType="1048576" />
       <File Name="Sources/main.c" FileDate="2018-12-08, 12:08:08" FileAge="1544242088974" FileType="128" />
-      <File Name="Generated_Code/CPU_Config.h" FileDate="2018-12-08, 12:08:07" FileAge="1544242087831" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/CPU_Config.h" FileDate="2018-12-27, 12:31:40" FileAge="1545885100688" FileType="45637" CompNumb="4" />
       <File Name="Documentation/doxygen/BitIoLdd14_component.txt" FileDate="2018-09-22, 13:26:34" FileAge="1537593994267" FileType="45637" CompNumb="113" />
       <File Name="Static_Code/PDD/GPIO_PDD.h" FileDate="2018-04-27, 16:42:09" FileAge="1524818529664" FileType="1048576" />
       <File Name="Static_Code/PDD/CMP_PDD.h" FileDate="2018-04-27, 16:42:09" FileAge="1524818529656" FileType="1048576" />
@@ -120,10 +120,10 @@
       <File Name="Generated_Code/TJA1028_EN.c" FileDate="2018-07-12, 10:41:02" FileAge="1531363262866" FileType="45637" CompNumb="92" />
       <File Name="Documentation/doxygen/BitIoLdd6_component.txt" FileDate="2018-09-22, 13:23:21" FileAge="1537593801773" FileType="45637" CompNumb="125" />
       <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2018-11-19, 16:29:01" FileAge="1542616141815" FileType="45637" CompNumb="4" />
-      <File Name="Generated_Code/CAN.h" FileDate="2018-11-19, 16:29:00" FileAge="1542616140885" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/CAN.h" FileDate="2018-12-27, 12:31:41" FileAge="1545885101613" FileType="45637" CompNumb="13" />
       <File Name="Documentation/doxygen/FTM0_component.txt" FileDate="2018-07-17, 08:27:55" FileAge="1531787275304" FileType="45637" CompNumb="42" />
       <File Name="Generated_Code/IN_RST.h" FileDate="2018-09-22, 13:23:20" FileAge="1537593800776" FileType="45637" CompNumb="128" />
-      <File Name="Generated_Code/CAN.c" FileDate="2018-11-19, 16:29:01" FileAge="1542616141092" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/CAN.c" FileDate="2018-12-27, 12:31:41" FileAge="1545885101673" FileType="45637" CompNumb="13" />
       <File Name="Static_Code/System/Peripherals_Init.h" FileDate="2018-04-27, 16:46:30" FileAge="1524818790596" FileType="1048576" CompNumb="4" />
       <File Name="Generated_Code/IN_RST.c" FileDate="2018-09-22, 13:23:20" FileAge="1537593800756" FileType="45637" CompNumb="128" />
       <File Name="Generated_Code/OUT_RST.h" FileDate="2018-09-22, 13:23:21" FileAge="1537593801691" FileType="45637" CompNumb="51" />
@@ -154,7 +154,7 @@
       <File Name="Generated_Code/BitIoLdd19.h" FileDate="2018-08-18, 18:04:49" FileAge="1534586689879" FileType="45637" CompNumb="117" />
       <File Name="Generated_Code/Pins1.c" FileDate="2018-04-27, 16:46:30" FileAge="1524818790894" FileType="45637" CompNumb="3" />
       <File Name="Generated_Code/FTM1.h" FileDate="2018-07-17, 08:27:55" FileAge="1531787275523" FileType="45637" CompNumb="48" />
-      <File Name="Documentation/doxygen/CAN_component.txt" FileDate="2018-11-19, 16:29:01" FileAge="1542616141475" FileType="45637" CompNumb="13" />
+      <File Name="Documentation/doxygen/CAN_component.txt" FileDate="2018-12-27, 12:31:42" FileAge="1545885102028" FileType="45637" CompNumb="13" />
       <File Name="Static_Code/PDD/PDD_Types.h" FileDate="2018-04-27, 16:42:09" FileAge="1524818529651" FileType="1048576" CompNumb="4" />
       <File Name="Generated_Code/BitIoLdd19.c" FileDate="2018-08-18, 18:04:49" FileAge="1534586689885" FileType="45637" CompNumb="117" />
       <File Name="Generated_Code/FTM1.c" FileDate="2018-07-17, 08:27:55" FileAge="1531787275532" FileType="45637" CompNumb="48" />
@@ -204,7 +204,7 @@
       <File Name="Generated_Code/BitIoLdd1.c" FileDate="2018-09-22, 13:23:20" FileAge="1537593800877" FileType="45637" CompNumb="123" />
       <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2018-04-27, 16:42:09" FileAge="1524818529714" FileType="45637" CompNumb="4" />
       <File Name="Sources/Events.h" FileDate="2018-11-19, 16:51:42" FileAge="1542617502383" FileType="131328" />
-      <File Name="Documentation/Voice Prompt_Settings.xml" FileDate="2018-11-19, 16:51:43" FileAge="1542617503305" FileType="3072" />
+      <File Name="Documentation/Voice Prompt_Settings.xml" FileDate="2018-12-27, 12:31:42" FileAge="1545885102419" FileType="3072" />
       <File Name="Generated_Code/BitIoLdd21.c" FileDate="2018-09-22, 13:23:20" FileAge="1537593800849" FileType="45637" CompNumb="127" />
       <File Name="Sources/Events.c" FileDate="2018-11-30, 16:37:57" FileAge="1543567077392" FileType="131328" />
       <File Name="Generated_Code/PE_Const.h" FileDate="2018-04-27, 16:46:30" FileAge="1524818790810" FileType="45637" />
@@ -212,5 +212,5 @@
       <File Name="Documentation/doxygen/ASerialLdd1_component.txt" FileDate="2018-07-12, 10:41:02" FileAge="1531363262896" FileType="45637" CompNumb="83" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>95</CodeGenReference>
+  <CodeGenReference>97</CodeGenReference>
 </CodeGenerationInfo>

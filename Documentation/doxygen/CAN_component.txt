@@ -86,10 +86,10 @@ by the component.
 <td class="regNotResetVal">0x000000FF</td>
  <td>MSCAN_CANIDAR7 register, peripheral CAN.</td></tr>
 <tr><td>0x40024002</td><td>MSCAN_CANBTR0</td>
-<td class="regNotResetVal">0x00000006</td>
+<td class="regNotResetVal">0x00000005</td>
  <td>MSCAN_CANBTR0 register, peripheral CAN.</td></tr>
 <tr><td>0x40024003</td><td>MSCAN_CANBTR1</td>
-<td class="regNotResetVal">0x00000013</td>
+<td class="regNotResetVal">0x00000014</td>
  <td>MSCAN_CANBTR1 register, peripheral CAN.</td></tr>
 </table>
 Color Denotes Reset Value
@@ -952,7 +952,7 @@ registers of the peripheral(s) configured by the component.
         
 </div>
 <table class="regtbl2"><tr><td class="trowtit" colspan="2">Address</td><td colspan="2">0x40024002</td></tr>
-<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x00000006</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x00000005</td></tr>
 <tr class="trowtit"><td  class="trowtit" colspan="2">After-reset value</td><td colspan="2">0x00000000</td></tr>
 <tr><td class="ttitle2">Bit</td><td class="ttitle2">Field</td><td class="ttitle2">Value</td><td class="ttitle2">Description</td></tr>
 <tr><td>6 - 7</td><td>SJW</td><td>0x00</td><td>Synchronization Jump Width</td>
@@ -978,7 +978,7 @@ registers of the peripheral(s) configured by the component.
         
 </div>
 <table class="regtbl2"><tr><td class="trowtit" colspan="2">Address</td><td colspan="2">0x40024003</td></tr>
-<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x00000013</td></tr>
+<tr class="trowtit"><td  class="trowtit" colspan="2">Initial value</td><td colspan="2">0x00000014</td></tr>
 <tr class="trowtit"><td  class="trowtit" colspan="2">After-reset value</td><td colspan="2">0x00000000</td></tr>
 <tr><td class="ttitle2">Bit</td><td class="ttitle2">Field</td><td class="ttitle2">Value</td><td class="ttitle2">Description</td></tr>
 <tr><td>7</td><td>SAMP</td><td>0x00</td><td>Sampling</td>
@@ -1040,10 +1040,10 @@ registers of the peripheral(s) configured by the component.
 **            Wake up                                      : Disabled
 **          Timing                                         : 
 **            CAN timing calculator                        : click to run ->
-**            Time segment 1                               : 4
+**            Time segment 1                               : 5
 **            Time segment 2                               : 2
 **            Resync jump width                            : 1
-**            Time quanta per bit                          : 7
+**            Time quanta per bit                          : 8
 **            Samples per bit                              : One sample
 **            Bit rate                                     : 500 kbit/s
 **          Initialization                                 : 
